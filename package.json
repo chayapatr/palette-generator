@@ -1,5 +1,5 @@
 {
-  "name": "palette-generator",
+  "name": "@thaiui/color",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
