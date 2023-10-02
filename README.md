@@ -1,15 +1,15 @@
 # ThaiUI Color Kit
 
-**This is a work in progress, use with caution**
+**🚧 This is a work in progress, please use with caution**
 
 ## Color Shades Generator
 
 ### Functions
 
-- luminanceShift: change L value in HSL
-- chromaJSShift: brighten() and darken() function in chroma.js
-- oklchLuminanceShift: change L value in OKLCH
-- accessiblePalette: method created by Eugene Fedorenko (accessible palette)
+- **luminanceShift**: change L value in HSL
+- **chromaJSShift**: brighten() and darken() function in chroma.js
+- **oklchLuminanceShift**: change L value in OKLCH
+- **accessiblePalette**: method created by Eugene Fedorenko (accessible palette)
 
 ### Example
 
@@ -30,3 +30,21 @@ console.log(palette.chromaJSShift(hex, steps))
   '#2a7b00', '#196d00', '#076000'
 ] */
 ```
+
+### TODO
+
+#### Shades Generator
+
+- Tailwind Method -> analysis [https://tailwind-color-analytics.netlify.app/](https://tailwind-color-analytics.netlify.app/)
+
+#### Hue Shifting
+
+- [ref] [https://pixelparmesan.com/color-theory-for-pixel-artists-its-all-relative/](https://pixelparmesan.com/color-theory-for-pixel-artists-its-all-relative/)
+- [ref] [https://github.com/javisperez/tailwindcolorshades](https://github.com/javisperez/tailwindcolorshades)
+
+## [TODO]: Palette Generator
+
+## [TODO]: Contrast Tester
+
+- perceived lightness
+- WCAG 2.1 / WCAG 3
